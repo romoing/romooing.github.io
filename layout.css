@@ -1,0 +1,101 @@
+
+*{
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+body{
+   /*  background-color: black; */
+    margin: 3em;
+    gap: 30px;
+   /*  padding: 4; */
+    cursor:url(./cursor\ amarilo.png),auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.video{
+    border-radius: 70px;
+
+}
+.iconos-derecha {
+    display: flex;
+    position: relative;
+    float: left;
+    margin: 20px;
+    gap: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.contenedor{
+    display: flex;
+    position: relative;
+    float: left;
+    margin: 20px;
+    gap: 20px;
+    
+    width: 60px ;
+    height :60px;
+}
+#contenedor.barra{
+    display: flex;
+    float: left;
+    margin: 10px;
+    gap: 10px;
+    /* cursor: pointer; */
+}
+input{
+    width: 800px;
+    height: 8px;
+    padding: 20px;
+    padding-right: 35px;
+    border-radius: 30px;
+    border: 1;
+    outline: none;
+    font-size: 1rem;
+    background-color: white;
+    
+}
+
+input:hover{
+    background-color: rgb(204, 201, 201);
+}
+
+img{
+    max-width: 100%;
+    margin-bottom: 1em;
+    display: block;
+    outline: 2px solid rgb(241, 238, 238);
+   /*  outline-offset: -8px; */
+    border-radius: 70px;
+      transition: 1ms;
+    object-fit: cover; 
+
+}
+img:hover{
+    /* filter:contrast(2);  */
+    filter:grayscale(100)
+}
+.gallery{
+columns: 5 320px;
+column-gap: 1em;
+
+}
+.box-hover{
+    background-color: aqua;
+}
+/* .mas{
+    position: absolute;
+    right: 570px;
+    top: 0;
+} */
+
+/* .iconos-derecha:hover{
+    filter: contrast(3);
+    
+} */
